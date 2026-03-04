@@ -1,4 +1,11 @@
-# í´ DevSecOps + GitOps Platform on AWS EKS
+# ï¿½ï¿½ï¿½ DevSecOps + GitOps Platform on AWS EKS
+
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin <repo-url>
+git push -u origin main
 
 [![CI Pipeline](https://img.shields.io/badge/CI-GitHub%20Actions-blue?logo=githubactions)](https://github.com/features/actions)
 [![GitOps](https://img.shields.io/badge/GitOps-ArgoCD-orange?logo=argo)](https://argo-cd.readthedocs.io/)
@@ -10,7 +17,7 @@ A production-grade **DevSecOps platform** built on AWS EKS implementing GitOps d
 
 ---
 
-## í³‹ Table of Contents
+## ï¿½ï¿½ï¿½ Table of Contents
 
 - [Architecture Overview](#-architecture-overview)
 - [Tech Stack](#-tech-stack)
@@ -24,7 +31,7 @@ A production-grade **DevSecOps platform** built on AWS EKS implementing GitOps d
 
 ---
 
-## í¿—ï¸ Architecture Overview
+## ï¿½ï¿½ï¿½ï¸ Architecture Overview
 
 ```
 Developer â†’ Git Push â†’ GitHub Actions CI
@@ -51,7 +58,7 @@ Developer â†’ Git Push â†’ GitHub Actions CI
 
 ---
 
-## í» ï¸ Tech Stack
+## ï¿½ï¿½ï¿½ï¸ Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -79,7 +86,7 @@ Developer â†’ Git Push â†’ GitHub Actions CI
 
 ---
 
-## í´§ Step 1: Install All Tools (Linux)
+## ï¿½ï¿½ï¿½ Step 1: Install All Tools (Linux)
 
 Run each section below in your terminal. Copy-paste the entire block at once.
 
@@ -223,7 +230,7 @@ Default region name:    â†’ ap-south-1   (Mumbai)
 Default output format:  â†’ json
 ```
 
-> í²¡ **How to get your Access Key:** AWS Console â†’ IAM â†’ Users â†’ Your User â†’ Security Credentials â†’ Create Access Key
+> ï¿½ï¿½ï¿½ **How to get your Access Key:** AWS Console â†’ IAM â†’ Users â†’ Your User â†’ Security Credentials â†’ Create Access Key
 
 Verify your configuration works:
 
@@ -234,7 +241,7 @@ aws sts get-caller-identity
 
 ---
 
-## í³ Step 3: Setup GitHub Repository
+## ï¿½ï¿½ï¿½ Step 3: Setup GitHub Repository
 
 ```bash
 # Authenticate with GitHub
@@ -264,7 +271,7 @@ echo "âœ… Repository structure created!"
 
 ---
 
-## í·ºï¸ Project Phases
+## ï¿½ï¿½ï¿½ï¸ Project Phases
 
 | Phase | Topic | Duration |
 |-------|-------|----------|
@@ -278,7 +285,7 @@ echo "âœ… Repository structure created!"
 
 ---
 
-## í»¡ï¸ Security Layers
+## ï¿½ï¿½ï¿½ï¸ Security Layers
 
 This project implements **Defense in Depth** â€” 6 independent layers of security:
 
@@ -293,7 +300,7 @@ Layer 6: Falco Runtime Security    â†’ Detect attacks on running containers
 
 ---
 
-## í³‚ Folder Structure
+## ï¿½ï¿½ï¿½ Folder Structure
 
 ```
 devsecops-platform/
@@ -321,7 +328,7 @@ devsecops-platform/
 
 ---
 
-## í±¤ Author
+## ï¿½ï¿½ï¿½ Author
 
 **Saumya Singh** â€” DevOps Engineer  
 AWS Certified Cloud Practitioner | AWS Certified Developer â€“ Associate  
