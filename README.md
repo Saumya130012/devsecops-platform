@@ -1,5 +1,6 @@
 # ��� DevSecOps + GitOps Platform on AWS EKS
-
+sed -i '/\/\/rds variables/(after this all deleted),$d' variables.tf(filename)  to remove anything from shell file
+sed -i '/START_PATTERN/,/END_PATTERN/d' filename
 git init
 git add .
 git commit -m "initial commit"
